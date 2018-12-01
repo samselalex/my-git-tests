@@ -1,21 +1,8 @@
 package pl.asam.my_git_test;
 
-public class Car {
+public class Auto {
     private String name;
     private String color;
-
-    public Car(String name, String color) {
-        this.name = name;
-        this.color = color;
-    }
-
-    @Override
-    public String toString() {
-        return "Car{" +
-                "name='" + name + '\'' +
-                ", color='" + color + '\'' +
-                '}';
-    }
 
     public String getName() {
         return name;
